@@ -1,1 +1,1 @@
-# Programming-Projects
+Small BlackJack game made in Java
