@@ -1,5 +1,5 @@
 public class Stay {
-    public void stay(int cardValues) {
+    public void stay(int cardValues, int userBet) {
         EvaluateGame eval = new EvaluateGame();
         Hit hit = new Hit();
         System.out.println("You chose to stay, with a total card value of " + cardValues);
@@ -14,9 +14,9 @@ public class Stay {
 
         if(initialTotal < 17) {
             System.out.println("Dealer has to hit!");
-            hit.dealerHit(cardValues, initialTotal);
+            hit.dealerHit(cardValues, initialTotal, userBet);
         } else {
-            eval.evaluateGame(cardValues, initialTotal);
+            eval.evaluateGame(cardValues, initialTotal, userBet);
         }
     }
 }
