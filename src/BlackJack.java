@@ -15,7 +15,9 @@ class BlackJack {
         Card pCard1 = new Card();
         Card pCard2 = new Card();
 
-        System.out.println("----------------------------------------");
+
+
+        System.out.println("----------New Game----------");
         System.out.println("Total chips: " + chipCount);
         System.out.print("Place starting bet: ");
         int initialBet = input.nextInt();
@@ -27,9 +29,9 @@ class BlackJack {
         int cardTotal = pCard1.cardValue + pCard2.cardValue;
 
         if(firstAnswer.equals("hit")) {
-            hit.playerHit(cardTotal, initialBet);
+            hit.playerHit(cardTotal, initialBet, chipCount);
         } else {
-            stay.stay(cardTotal, initialBet);
+            stay.stay(cardTotal, initialBet, chipCount);
         }
     }
 }
