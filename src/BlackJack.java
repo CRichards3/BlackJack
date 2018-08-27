@@ -15,8 +15,6 @@ class BlackJack {
         Card pCard1 = new Card();
         Card pCard2 = new Card();
 
-
-
         System.out.println("----------New Game----------");
         System.out.println("Total chips: " + chipCount);
         System.out.print("Place starting bet: ");

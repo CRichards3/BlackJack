@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="323b5e1b-aff8-4bdb-9407-d971a7a98833" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/BlackJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BlackJack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EvaluateGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EvaluateGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stay.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,11 +93,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BlackJack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+            <state relative-caret-position="255">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding>
                 <element signature="e#88#89#0" expanded="true" />
                 <element signature="e#113#114#0" expanded="true" />
@@ -145,7 +142,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PromptUser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -175,10 +172,10 @@
         <option value="$PROJECT_DIR$/src/PromptUser.java" />
         <option value="$PROJECT_DIR$/src/HelloWorld.java" />
         <option value="$PROJECT_DIR$/src/Card.java" />
-        <option value="$PROJECT_DIR$/src/BlackJack.java" />
         <option value="$PROJECT_DIR$/src/EvaluateGame.java" />
         <option value="$PROJECT_DIR$/src/Hit.java" />
         <option value="$PROJECT_DIR$/src/Stay.java" />
+        <option value="$PROJECT_DIR$/src/BlackJack.java" />
       </list>
     </option>
   </component>
@@ -223,7 +220,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535412122293" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535413211860" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -303,12 +300,12 @@
       <workItem from="1535346085624" duration="39000" />
       <workItem from="1535347139418" duration="711000" />
       <workItem from="1535387804968" duration="317000" />
-      <workItem from="1535388544580" duration="5711000" />
+      <workItem from="1535388544580" duration="6039000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25272000" />
+    <option name="totallyTimeSpent" value="25600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -390,17 +387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BlackJack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-          <folding>
-            <element signature="e#88#89#0" expanded="true" />
-            <element signature="e#113#114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Hit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
@@ -433,6 +419,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BlackJack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="e#88#89#0" expanded="true" />
+            <element signature="e#113#114#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
