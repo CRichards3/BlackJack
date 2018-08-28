@@ -11,9 +11,11 @@ class BlackJack {
         Hit hit = new Hit();
         Stay stay = new Stay();
         PromptUser prompt = new PromptUser();
+        DoubleDown dd = new DoubleDown();
 
         Card pCard1 = new Card();
         Card pCard2 = new Card();
+        int cardTotal = pCard1.cardValue + pCard2.cardValue;
 
         System.out.println("----------New Game----------");
         System.out.println("Total chips: " + chipCount);
@@ -23,8 +25,11 @@ class BlackJack {
         System.out.println("Your cards: " + pCard1.cardValue + " of " + pCard1.cardSuite
                 + ", " + pCard2.cardValue + " of " + pCard2.cardSuite);
 
+        if(cardTotal < 12 && cardTotal > 8) {
+            dd.doubleDown(cardTotal, initialBet, chipCount);
+        }
+
         String firstAnswer = prompt.hitOrStay();
-        int cardTotal = pCard1.cardValue + pCard2.cardValue;
 
         if(firstAnswer.equals("hit")) {
             hit.playerHit(cardTotal, initialBet, chipCount);

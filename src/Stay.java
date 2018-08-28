@@ -2,7 +2,7 @@ public class Stay {
     public void stay(int cardValues, int userBet, int chipCount) {
         EvaluateGame eval = new EvaluateGame();
         Hit hit = new Hit();
-        System.out.println("You chose to stay, with a total card value of " + cardValues);
+        System.out.println("Your total card value is " + cardValues);
 
         Card dealerCard1 = new Card();
         Card dealerCard2 = new Card();
