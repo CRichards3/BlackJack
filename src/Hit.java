@@ -7,7 +7,7 @@ public class Hit {
         Stay stay = new Stay();
         ChipCheck chips = new ChipCheck();
 
-        System.out.println("New card: " + pCardNew.cardValue + " of " + pCardNew.cardSuite);
+        System.out.println("New card: " + pCardNew.cardValue + " of " + pCardNew.cardSuit);
 
         int cardValArr[] = {cardTotal, pCardNew.cardValue};
         boolean over21 = bc.bustCheck(cardValArr);
@@ -32,7 +32,7 @@ public class Hit {
         BustCheck bc = new BustCheck();
         EvaluateGame eval = new EvaluateGame();
 
-        System.out.println("Dealer's new card: " + dCardNew.cardValue + " of " + dCardNew.cardSuite);
+        System.out.println("Dealer's new card: " + dCardNew.cardValue + " of " + dCardNew.cardSuit);
 
         int cardValArr[] = {cardTotal, dCardNew.cardValue};
         int newCardSum = cardTotal + dCardNew.cardValue;

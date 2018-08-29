@@ -11,7 +11,7 @@ public class DoubleDown {
         if(ans.equals("yes")) {
             System.out.println("Bet doubled! You receive one more card: ");
             Card newCard = new Card();
-            System.out.println("New card: " + newCard.cardValue + " of " + newCard.cardSuite);
+            System.out.println("New card: " + newCard.cardValue + " of " + newCard.cardSuit);
             int newCardTot = totalCardVal + newCard.cardValue;
             int newBet = bet*2;
             st.stay(newCardTot, newBet, chipCount);

@@ -22,8 +22,8 @@ class BlackJack {
         System.out.print("Place starting bet: ");
         int initialBet = input.nextInt();
 
-        System.out.println("Your cards: " + pCard1.cardValue + " of " + pCard1.cardSuite
-                + ", " + pCard2.cardValue + " of " + pCard2.cardSuite);
+        System.out.println("Your cards: " + pCard1.cardValue + " of " + pCard1.cardSuit
+                + ", " + pCard2.cardValue + " of " + pCard2.cardSuit);
 
         if(cardTotal < 12 && cardTotal > 8) {
             dd.doubleDown(cardTotal, initialBet, chipCount);

@@ -7,8 +7,8 @@ public class Stay {
         Card dealerCard1 = new Card();
         Card dealerCard2 = new Card();
 
-        System.out.println("Dealer's cards: " + dealerCard1.cardValue + " of " + dealerCard1.cardSuite
-                + ", " + dealerCard2.cardValue + " of " + dealerCard2.cardSuite);
+        System.out.println("Dealer's cards: " + dealerCard1.cardValue + " of " + dealerCard1.cardSuit
+                + ", " + dealerCard2.cardValue + " of " + dealerCard2.cardSuit);
 
         int initialTotal = dealerCard1.cardValue + dealerCard2.cardValue;
 

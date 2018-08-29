@@ -6,7 +6,7 @@ public class ChipCheck {
 
         if (chipCount <= 0) {
             Scanner in = new Scanner(System.in);
-            System.out.println("Game over! Play again?");
+            System.out.print("Game over! Play again? ");
             String ans = in.nextLine().toLowerCase();
             if(ans.equals("yes")) {
                 newGame.newGame(100);

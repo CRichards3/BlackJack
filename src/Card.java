@@ -1,9 +1,8 @@
 import java.util.Random;
 
 public class Card {
-
     int cardValue;
-    String cardSuite;
+    String cardSuit;
 
     int values[] = {2,3,4,5,6,7,8,9,10,10,10,10};
     String suites[] = {"Hearts", "Diamonds", "Spades", "Clubs"};
@@ -20,9 +19,7 @@ public class Card {
        int numArrIndex =  p.nextInt((numArrMax - numArrMin) + 1) + numArrMin;
 
        this.cardValue = values[numArrIndex];
-       this.cardSuite = suites[suiteArrIndex];
-
-       //TestTestTest
+       this.cardSuit = suites[suiteArrIndex];
 
    }
 }
