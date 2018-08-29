@@ -30,7 +30,6 @@ class BlackJack {
         }
 
         String firstAnswer = prompt.hitOrStay();
-
         if(firstAnswer.equals("hit")) {
             hit.playerHit(cardTotal, initialBet, chipCount);
         } else {

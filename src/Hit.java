@@ -5,6 +5,7 @@ public class Hit {
         PromptUser prompt = new PromptUser();
         Hit newHit = new Hit();
         Stay stay = new Stay();
+        ChipCheck chips = new ChipCheck();
 
         System.out.println("New card: " + pCardNew.cardValue + " of " + pCardNew.cardSuite);
 
@@ -13,8 +14,7 @@ public class Hit {
         if(over21) {
             System.out.println("You busted!");
             int totalChips = chipCount-bet;
-            BlackJack.newGame(totalChips);
-
+            chips.chipCheck(totalChips);
         }
         else {
             int newCardTotal = cardTotal + pCardNew.cardValue;
